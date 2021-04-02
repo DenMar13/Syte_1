@@ -1,0 +1,132 @@
+/* Стили CSS */
+/** {
+    margin: 0;
+    padding: 0;
+ }*/
+.container {
+	width: 760px;
+	height: auto;
+	border: 1px hidden red;
+	margin: 0 auto;
+}
+.header {
+	width: 760px;
+	height: 180px;
+	border: 1px hidden blue;
+	/*margin-top: 8px;
+	margin-right: 120px;
+	margin-bottom: 0px;
+	margin-left: 120px;*/
+	padding: 20px 0 0 0;
+	background-color: white;
+	/*background-color: hsl(28, 96%, 72%, 50%); */ 
+}
+.nav {
+	width: 760px;
+	height: 37px;
+	border: 1px hidden green;
+	/*margin-top: 0px;
+	margin-right: 120px;
+	margin-left: 120px;*/
+	margin-bottom: 20px;
+	background-color: white;
+}
+.photo {
+	width: 760px;
+	height: 316px;
+	border: 1px hidden green;
+	/*margin-top: 20px;
+	margin-right: 120px;
+	margin-left: 120px;*/
+	margin-bottom: 20px;
+}
+.content_1 {
+    float: left;
+	width: 420px;
+	height: 338px;
+	border: 1px hidden green;
+	/*margin-top: 0px;
+	margin-left: 120px;*/
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: white;
+	color: #757272;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 14px;
+	word-spacing: 0;
+	letter-spacing: 0;
+}
+.content_1:hover {
+	box-shadow: inset 4px 4px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.content_2 {
+	float: left;
+	width: 230px;
+	height: 338px;
+	border: 1px hidden green;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+	background-color: white;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 14px;
+}
+.content_2:hover {
+	box-shadow: inset 4px 4px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.footer {
+	clear: left;
+	width: 760px;
+	height: 40px;
+	border: 1px hidden red;
+	/*margin-top: 0px;
+	margin-right: 120px;
+	margin-bottom: 8px;
+	margin-left: 120px;*/
+	color: grey;
+}
+.header img {
+	display: block;
+    /*margin-top: 0px;
+	margin-bottom: 8px;*/
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px hidden red;
+}
+.nav a {
+	display: block;
+	float: left;
+	width: 124.67px;
+	height: 32px;
+	border-top: 1px solid #8c8585;
+	border-right: 1px solid #8c8585;
+    border-bottom: 4px solid #777ff2;
+	border-left: 1px solid #8c8585;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: none;
+	background-color: white;
+}
+.nav a:link {
+	color: grey;
+}
+.nav a:visited {
+	color: grey;
+}
+.nav a:hover {
+	color: black;
+	background: -webkit-linear-gradient(180deg, rgb(255, 255, 255) 2%, rgb(161, 168, 243));
+    background: -moz-linear-gradient(180deg, rgb(255, 255, 255) 2%, rgb(161, 168, 243));
+    background: linear-gradient(180deg, rgb(255, 255, 255) 2%, rgb(161, 168, 243));
+}
+.nav a:active {
+	color: red;
+}
+body {
+	background: -webkit-linear-gradient(180deg, rgb(254, 254, 254) 7%, rgb(246, 246, 246), rgb(212, 213, 208));
+    background: -moz-linear-gradient(180deg, rgb(254, 254, 254) 7%, rgb(246, 246, 246), rgb(212, 213, 208));
+    background: linear-gradient(180deg, rgb(254, 254, 254) 7%, rgb(246, 246, 246), rgb(212, 213, 208));
+}
